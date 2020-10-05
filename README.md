@@ -56,11 +56,13 @@ Discord bot for Eddie Jaoude's Discord server
 1. Open `.env` and fill empty strings with matching credentials from the JSON file.
 
 #### 2. To start the application
+
 - [optional] To run with Docker ensure you have the latest version and Docker Compose installed and run
-	- `docker-compose up`
+
+  - `docker-compose up`
 
 - To run locally
-	- `npm run start:local`
+  - `npm run start:local`
 
 ---
 

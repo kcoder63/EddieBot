@@ -50,7 +50,8 @@ export default {
     { abbr: 'PDT', zone: 'America/Los_Angeles' },
     { abbr: 'AEST', zone: 'Australia/Brisbane' },
     { abbr: 'EEST', zone: 'Asia/Beirut' },
-    { abbr: 'UTC', zone: 'Europe/London' }, { abbr: 'UK', zone: 'Europe/London' },
+    { abbr: 'UTC', zone: 'Europe/London' },
+    { abbr: 'UK', zone: 'Europe/London' },
     { abbr: 'CEST', zone: 'Europe/Stockholm' },
     // winter timezone of Finland +1h
     { abbr: 'EET', zone: 'Europe/Finland' },
@@ -83,52 +84,50 @@ export default {
       'look',
       'you',
     ],
-    append: [
-      '.', '?', '!', ';', ':',
-    ],
+    append: ['.', '?', '!', ';', ':'],
     checks: [
-        {
-          check: 'guys',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'bros',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'bro',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'man',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'dude',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'dudes',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'gentlemen',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'fella',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'fellas',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-        {
-          check: 'boys',
-          suggestions: [ 'folks', 'people', 'everyone']
-        },
-      ]
-    }
+      {
+        check: 'guys',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'bros',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'bro',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'man',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'dude',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'dudes',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'gentlemen',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'fella',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'fellas',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+      {
+        check: 'boys',
+        suggestions: ['folks', 'people', 'everyone'],
+      },
+    ],
+  },
 };
 
 // Possible values for user subscriptions
