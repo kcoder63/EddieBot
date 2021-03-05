@@ -55,7 +55,7 @@ export default {
         "You can assign this role to yourself to be pinged when there are updates regarding community battlesnake games or Eddie' video for battlesnake",
     },
     MLH_GUILD: {
-      name: 'mlh_guild',
+      name: 'mlh-guild',
       description:
         'You can assign this role to yourself if you are participating with our guild in an MLH LHD Share hackathon.',
     },
@@ -164,7 +164,7 @@ export const selfAssignableRoles = [
   'svelte',
   'typescript',
   'vue',
-  'mlh_guild',
+  'mlh-guild',
 ];
 
 export const issueRequestConfig: AxiosRequestConfig = {
